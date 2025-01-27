@@ -1,0 +1,103 @@
+.sidebar {
+    width: var(--sidebar-width);
+    position: fixed;
+    height: 100%;
+    background: var(--mainWhite);
+    box-shadow: 0 0 10px var(--TransGrey);
+}
+
+.nav-link {
+    color: var(--mainGrey);
+    padding: .8rem 1.2rem;
+    margin: .25rem 0;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: #e9eceff5;
+    color: var(--mainYellow);
+    border-radius: 8px;
+}
+
+
+/* -------------main content-------------- */
+
+.main-content {
+    margin-left: var(--sidebar-width);
+    padding: 1.2rem;
+    background: var(--mainWhite);
+    min-height: 100vh;
+}
+
+canvas {
+    height: 6rem;
+}
+
+.card {
+    background: var(--mainWhite);
+    border-radius: .8rem;
+    padding: 1.2rem;
+    box-shadow: 0 2px 4px var(--TransGrey);
+}
+
+.card-activity {
+    overflow-y: auto;
+    max-height: 12rem;
+}
+
+.text {
+    color: var(--mainYellow) !important;
+}
+
+.chart-container {
+    background: var(--mainWhite);
+    border-radius: .8rem;
+    padding: 1.2rem;
+    margin: 1.2rem 0;
+}
+
+
+/* -------------product card-------------- */
+
+#product-management {
+    width: 100%;
+    border: none !important;
+    overflow-y: auto;
+}
+
+
+/* -------------table-------------- */
+
+.table {
+    max-width: 80vw;
+}
+
+#customerAndSeller {
+    width: 100%;
+    border: none !important;
+    overflow-y: auto;
+}
+
+.seller-customer {
+    width: 100%;
+    border: none !important;
+    overflow: auto;
+}
+
+@media (max-width: 768px) {
+    #customerAndSeller {
+        display: block;
+        width: 100%;
+    }
+    .table th,
+    .table td {
+        display: block;
+        width: 100%;
+    }
+    .table td {
+        text-align: left;
+    }
+    .table th {
+        display: none;
+    }
+}

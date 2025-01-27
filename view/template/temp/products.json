@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "name": "big chair",
+      "price": "342",
+      "date": "10/1/2025",
+      "quantity": "0",
+      "category": "Sofas",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    },
+    {
+      "id": 2,
+      "name": "safa",
+      "price": "400",
+      "date": "10/1/2025",
+      "quantity": "5",
+      "category": "Sofas",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    },
+    {
+      "id": 3,
+      "name": "big table",
+      "price": "500",
+      "date": "10/1/2025",
+      "quantity": "5",
+      "category": "Tables",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    },
+    {
+      "id": 4,
+      "name": "mid chair",
+      "price": "1000",
+      "date": "10/1/2025",
+      "quantity": "7",
+      "category": "Sofas",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    },
+    {
+      "id": 5,
+      "name": "spatial table ",
+      "price": "1200",
+      "date": "10/1/2025",
+      "quantity": "2",
+      "category": "Tables",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    },
+    {
+      "id": 6,
+      "name": "shelf ",
+      "price": "900",
+      "date": "10/1/2025",
+      "quantity": "11",
+      "category": "Office Furniture",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    },
+    {
+      "id": 7,
+      "name": "black sofa",
+      "price": "3000",
+      "date": "10/1/2025",
+      "quantity": "11",
+      "category": "Sofas",
+      "role": "admin",
+      "description": "Furniture not only serves practical purposes but also reflects personal style and taste. Investing in quality furniture can transform a house into a home, creating a welcoming and comfortable environment.",
+      "stars": []
+    }
+  ]

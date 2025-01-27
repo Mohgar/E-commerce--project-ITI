@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+    --mainYellow: #fdbe02;
+    --mainWhite: #fff;
+    --mainBlack: #071013;
+    --mainGrey: #9b9999;
+    --mainGray2:rgba(0, 0, 0, 0.8);
+    --TransGrey: rgba(0, 0, 0, 0.1);
+    --sidebar-width: 200px;
+    min-width: 400px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "Mali", cursive;
+}
+.success-message {
+    display: none;
+    position: fixed;
+    top: 5px;
+    right: 30%;
+    z-index: 2000;
+  }
+
+.failure-message {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
